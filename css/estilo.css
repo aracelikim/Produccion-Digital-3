@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@500&family=Oxygen:wght@300&family=Shadows+Into+Light&display=swap');
+*{margin: 0; padding: 0;}
+header{text-align: center;padding: 20px;}
+.container{background-color:#9ec9ae;}
+.nav-link{font-size: 30px;padding: 20px;}
+.back{background-color: #f5cc56;padding: 20px;}
+p{text-align: justify; font-size: 25px; padding: 80px;margin-top: 30px;}
+footer{text-align: center; font-size: 20px; padding:20px; background-color: #f5cc56;}
+.futu2{text-align: center;margin-top: 30px;}
+h1{font-family: "oxygen";text-align: justify; font-size: 20px;padding: 20px;margin-top: 125px;margin-right: 50px;}
+.futu3{text-align: center; padding: 40px; margin-left: 60px; margin-top: 100px;}
+.container1{background-color: #f5cc56;padding: 20px;}
+.fili{text-align: center; padding-left: 250px; margin-top: 20px;}
+h2{text-align: center; font-family:"noto sans jp";padding: 10px; font-size: 20px;}
+h3{text-align: center; font-size: 15px;}
+.ww{font-size: 15px; padding: 15px;}
+.titulo{font-size: 45px; font-family: 'shadows into light'; color: white;animation-name:txt;animation-duration: 3s;animation-delay: 0s;animation-fill-mode: forwards;position: relative;margin-right: 20px;padding-left: 20px;padding: 10px; text-align: center;}
+.obras{text-align:center; font-family: "noto sans jp"; font-size: 15px; padding:20px;margin-top: 10px; width: 100%; }
+.obra{padding: 20px;width: 100%;}
+.sus{text-align: center; font-size: 30px; font-family: 'noto sans jp';padding: 20px;}
+.historia{margin-left: 500px;; padding: 20px; }
+.fut{text-align: center; padding: 20px; font-size: 20px;}
+.card-title{text-align: center; font-size: 30px; font-family:'shadows into light';padding: 10px;background-color: transparent;position: relative; animation-name: boton;animation-duration: 3s;text-decoration: none;transition: 1.5s;}
+.card-text{text-align: center; font-size: 15px; font-family: 'oxygen';padding: 20px;}
+
+@keyframes txt{ 
+	0%{transform: translateX(-400px);color: transparent;}
+	100%{transform: translateX(0px);}
+
+ }
+
+@keyframes boton{
+	0%{color: transparent;background-color: transparent;}
+	100%{}
+}
+
